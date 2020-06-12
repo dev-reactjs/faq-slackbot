@@ -1,0 +1,1 @@
+web: npm run start-pro --optimize_for_size 

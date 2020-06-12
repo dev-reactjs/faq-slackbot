@@ -1,0 +1,23 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Faq-bot",
+  "main": "index.js",
+  "engines": {
+    "node": "10.17.0",
+    "npm": "6.11.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check",
+    "start-pro": "NODE_ENV=production node index.js --optimize_for_size --max_old_space_size=460"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "slackbots": "^1.2.0"
+  }
+}
