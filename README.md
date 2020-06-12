@@ -15,11 +15,12 @@ You will need the following things properly installed on your computer.
 ## Create a New Bot Integration:
 * To integrate your bot with Slack, you must have a existing slack workspace or create a new one.
 * Go to "https://api.slack.com/apps?new_classic_app=1" to create a new Bot Integration.
-* On the next screen note the Slack API token.
+* Go to created apps and find your bot
+* Check the OAuth & Permissions to copy the `Bot User OAuth Access Token`
 
 Running / Development:
 * node index
-* SLACK_BOT_TOKEN='Paste Your Token in .env file'
+* SLACK_BOT_TOKEN='Paste Your `Bot User OAuth Access Token` in .env file'
 
 
 ## Run Bot:
