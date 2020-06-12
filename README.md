@@ -24,9 +24,7 @@ Running / Development:
 
 ## Run Bot:
 * Invite the bot to a channel, /invite @bot-name
-* Ask questions
-* @bot-name hi
-* @bot-name what is covid 19 ?
-* @bot-name what are the symptoms of covid 19 ?
-* @bot-name How we can prevent covid 19 ?
-* @bot-name Thank You!
+* Ask questions 
+* @bot-name hi or hi
+* @bot-name tell me about the covid precautions or tell me about the covid precautions
+* @bot-name thanks or thanks
